@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+    }
+    resolutionStrategy {
+        eachPlugin {
+            if (it.requested.id.toString() == 'com.fab1an.kotlin-json-stream-serializer') {
+                useModule("com.fab1an:kotlin-json-stream-serializer:${requested.version}")
+            }
+        }
+    }
+}
+rootProject.name = 'kotlin-json-stream-serializer-sample'

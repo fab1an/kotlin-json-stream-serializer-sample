@@ -1,5 +1,5 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.8.22"
+    id "org.jetbrains.kotlin.jvm" version "1.9.10"
     id "com.fab1an.kotlin-json-stream-serializer" version "1.0.0-SNAPSHOT"
 }
 

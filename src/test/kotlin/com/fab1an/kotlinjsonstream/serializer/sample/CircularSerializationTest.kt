@@ -43,7 +43,7 @@ class CircularSerializationTest {
         (reconstructed.myLeaf!!.parent === reconstructed) shouldEqual true
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun circularSerialisationWithList() {
         val buffer = Buffer()
 
@@ -72,7 +72,7 @@ class CircularSerializationTest {
         (reconstructed.myLeafs[1].parent === reconstructed) shouldEqual true
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     fun circularSerialisationWithSet() {
         val buffer = Buffer()
 

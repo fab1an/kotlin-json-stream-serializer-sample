@@ -1,6 +1,6 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.9.10"
-    id "com.fab1an.kotlin-json-stream-serializer" version "1.0.1"
+    id "org.jetbrains.kotlin.jvm" version "1.9.24"
+    id "com.fab1an.kotlin-json-stream-serializer" version "1.0.6-SNAPSHOT"
 }
 
 group "com.fab1an"
@@ -19,5 +19,5 @@ tasks.named("test").configure {
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }

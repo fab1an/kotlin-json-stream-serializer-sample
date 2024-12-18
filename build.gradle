@@ -1,6 +1,6 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "2.0.10"
-    id "com.fab1an.kotlin-json-stream-serializer" version "1.0.7"
+    id "org.jetbrains.kotlin.jvm" version "2.1.0"
+    id "com.google.devtools.ksp" version "2.1.0-1.0.29"
 }
 
 group "com.fab1an"
@@ -12,6 +12,9 @@ repositories {
 }
 
 dependencies {
+    ksp "com.fab1an:kotlin-json-stream-serializer:2.0.1"
+    implementation "com.fab1an:kotlin-json-stream-serializer-annotations:2.0.1"
+    implementation "com.fab1an:kotlin-json-stream:1.2.2"
     testImplementation "org.jetbrains.kotlin:kotlin-test"
 }
 

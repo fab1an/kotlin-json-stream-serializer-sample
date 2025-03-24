@@ -7,7 +7,6 @@ group = "com.fab1an"
 version = "2.0.4-SNAPSHOT"
 
 repositories {
-    mavenLocal()
     mavenCentral()
 }
 

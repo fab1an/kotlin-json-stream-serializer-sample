@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm").version("2.1.10")
-    id("com.google.devtools.ksp") version("2.1.10-1.0.30")
+    kotlin("jvm").version("2.1.20")
+    id("com.google.devtools.ksp") version("2.1.20-1.0.31")
 }
 
 group = "com.fab1an"
@@ -11,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    ksp("com.fab1an:kotlin-json-stream-serializer:2.0.3")
-    implementation("com.fab1an:kotlin-json-stream-serializer-annotations:2.0.0")
+    ksp("com.fab1an:kotlin-json-stream-serializer:2.0.4")
+    implementation("com.fab1an:kotlin-json-stream-serializer-annotations:2.0.1")
     implementation("com.fab1an:kotlin-json-stream:1.2.3")
     testImplementation(kotlin("test"))
 }
